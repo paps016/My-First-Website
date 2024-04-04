@@ -1,0 +1,12 @@
+h1 {
+    color: rgb(5, 22, 22);
+    background-color: gray;
+}
+
+h1::before{
+    content: "blablas";
+}
+
+* {
+    color: brown;
+}
