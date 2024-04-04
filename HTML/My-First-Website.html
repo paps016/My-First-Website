@@ -9,17 +9,26 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 20px;
-            background-color: #f0f0f0;
+            background-color: #f9f9f9;
         }
 
-        h1 {
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
             color: #333;
-            text-align: center;
+            margin-bottom: 10px;
         }
 
         h2 {
-            color: #555;
-            margin-top: 20px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 5px;
         }
 
         p, ul {
@@ -48,34 +57,52 @@
     </style>
 </head>
 <body>
-    <h1>About Me</h1>
-    <p>Hello there! I'm Jerome, a passionate individual with a diverse set of interests and skills.</p>
+    
+    <div class="container">
+        <header>
+            <h1>Jerome Gustilo</h1>
+            <p>Software Developer</p>
+        </header>
 
-    <h2>Interests</h2>
-    <ul>
-        <li>Programming and Web Development</li>
-        <li>Macro Photography</li>
-        <li>Traveling</li>
-    </ul>
+        <section>
+            <h2>About Me</h2>
+            <p>Hello there! I'm a passionate software developer with a diverse set of interests and skills.</p>
+        </section>
 
-    <h2>Hobbies</h2>
-    <ul>
-        <li>Playing games</li>
-        <li>Watching TV shows</li>
-    </ul>
+        <section>
+            <h2>Interests</h2>
+            <ul>
+                <li>Programming and Web Development</li>
+                <li>Macro Photography</li>
+                <li>Traveling</li>
+            </ul>
+        </section>
 
-    <h2>Skills</h2>
-    <ul>
-        <li>HTML/CSS/JavaScript</li>
-        <li>Hardware and software troubleshooting</li>
-        <li>Photography editing with Adobe Lightroom</li>
-    </ul>
+        <section>
+            <h2>Hobbies</h2>
+            <ul>
+                <li>Playing games</li>
+                <li>Watching TV shows</li>
+            </ul>
+        </section>
 
-    <h2>Connect with Me</h2>
-    <ul>
-        <li><a href="https://www.linkedin.com/in/jerome-gustilo-90859a210">LinkedIn</a></li>
-        <li><a href="https://www.facebook.com/czeii016">Twitter</a></li>
-        <li><a href="https://www.instagram.com/jeromeeeegg/">Instagram</a></li>
-    </ul>
+        <section>
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML/CSS/JavaScript</li>
+                <li>Hardware and software troubleshooting</li>
+                <li>Photography editing with Adobe Lightroom</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Connect with Me</h2>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/jerome-gustilo-90859a210">LinkedIn</a></li>
+                <li><a href="https://www.facebook.com/czeii016">Twitter</a></li>
+                <li><a href="https://www.instagram.com/jeromeeeegg/">Instagram</a></li>
+            </ul>
+        </section>
+    </div>
 </body>
 </html>
