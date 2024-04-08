@@ -1,0 +1,134 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px;
+    background-color: tomato;
+}
+
+h1 {
+    color: black;
+    font-size: 20px;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 10px 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    color: white;
+}
+
+.hero {
+    background-image: url('https://media.istockphoto.com/id/1623303770/photo/creative-background-image-is-blurred-evening-city-lights-and-light-snowfall.jpg?b=1&s=612x612&w=0&k=20&c=--I6QisPR7yGmgujOI2co8U3FIK5tBv6xAjMup67ghc=');
+    background-size: cover;
+    background-position: center;
+    padding: 100px;
+    text-align: center;
+    color: tomato;
+}
+
+.hero a {
+    text-decoration: none;
+    color: white;
+}
+
+h2 {
+    font-size: 32px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 22px;
+    margin-top: 0;
+    margin-bottom: 20px; 
+}
+
+.button {
+    background-color: rgb(168, 88, 58);
+    border-radius: 50px 50px 50px 50px;
+    padding: 10px 10px;
+}
+
+.features {
+    padding: 45px;
+    text-align: center;
+}
+
+.feature {
+    margin-bottom: 40px;
+}
+
+img {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: tomato;
+    padding: 10px;
+    text-align: center;
+}
+
+footer p{
+    font-size: 15px;
+    margin: 0;
+}
+
+
+/* Media Queries */
+/* Add your media queries here for the responsive design */
+/* Media Queries for Small Screen */
+/* media -types: 1. all - works for all devices
+                 2. screen - works for devices with screens
+                 3. print - works for devices where the media is in print preview mode
+                 4. speech - works for devices like screen readers where the content is read out loud to the user */
+/* Breakout Points
+Mobile Devices - < 481px
+Ipads and Tables - 481px - 769px
+Small screens and Laptops: 769px - 1024px
+Desktops and Large Screens: 1025px - 1200px
+Extra large Screens, TVs: 1201px - greater
+*/
+/* Media Queries for Small Screen */
+@media only screen and (max-width: 767px) {
+    header {
+    padding: 10px;
+    }
+    h1 {
+    font-size: 20px;
+    }
+    .hero{
+        padding:50px;
+    }
+    }
+    /* Media Queries for Medium Screen */
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+    
+    
+    }
+    
+    @media only screen and (min-width: 992px) {
+    }

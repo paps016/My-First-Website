@@ -1,0 +1,32 @@
+.gridItem {
+    min-width: 20px;
+    border: 2px black solid;
+    -color: lightblue;
+    text-align: center;
+    justify-content: center;
+    min-height: 100px;
+}
+.container{
+    background-color: yellowgreen ;
+}
+.gridContainer {
+    display: grid;
+}
+.gridContainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 200px 120px;
+}
+.gridContainer{
+    display: grid;
+    height: 500px;
+    grid-template: 100px 80px/ auto auto auto;
+}
+.gridContainer{
+    display: grid;
+    grid-template: 100px 80px/ auto auto auto;
+    justify-content: space-around;
+    align-content: baseline;
+    column-gap: 2px;
+    row-gap: 100px;
+}
