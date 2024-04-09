@@ -29,6 +29,7 @@ body {
 }
 
 .header {
+ 
     margin-bottom: 0;
 }
 
@@ -107,6 +108,13 @@ img {
     height: auto;
     margin-bottom: 10px;
     margin-right: 25px;
+}
+
+.link, .fb, .ig {
+    width: 25px;
+    height: 25px;
+    margin: 0;
+    padding: 0;
 }
 
 footer {
